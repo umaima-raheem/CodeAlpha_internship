@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Image Gallery</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <h1>Image Gallery</h1>
+
+  <!-- Image Grid -->
+  <div class="gallery">
+    <img src="pic1.webp" alt="Image 1" loading="lazy" />
+    <img src="pic2.jpg" alt="Image 2" loading="lazy" />
+    <img src="pic3.jpg" alt="Image 3" loading="lazy" />
+    <img src="pic4.jpg" alt="Image 4" loading="lazy" />
+    <img src="pic5.jpg" alt="Image 5" loading="lazy" />
+    <img src="pic6.jpg" alt="Image 6" loading="lazy" />
+  </div>
+
+  <!-- Modal for Preview -->
+  <div id="modal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="modal-img" />
+    <div class="caption" id="caption"></div>
+    <div class="counter" id="counter"></div>
+
+    <!-- Navigation Buttons -->
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+
+    <!-- Feature Buttons -->
+    <button class="pause" id="pauseBtn">⏸ Pause</button>
+    <button class="fullscreen" id="fullscreenBtn">⛶ Fullscreen</button>
+    <button class="zoom" id="zoomBtn">🔍 Zoom</button>
+    <a class="download" id="downloadBtn">⬇️ Download</a>
+
+    <!-- Thumbnail Navigation -->
+    <div class="thumbnails" id="thumbnails"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

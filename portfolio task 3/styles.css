@@ -1,0 +1,369 @@
+.navbar-expand-lg{
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+}
+.carousel-item img {
+   float: right;
+   height: 600px;
+   padding-left: 700px;
+   background-color: rgb(6,6,6);
+
+}
+
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 100px;
+    color: #ffffff;
+    padding-top:240px;
+    font-size: 25px;
+  }
+
+  .heading{
+    position: absolute;
+    left: 100px;
+    color: #ffffff;
+    padding-top: 295px;
+    font-size: larger;
+  }
+
+  .paragaraph{
+    position: absolute;
+    left: 100px;
+    color: #707070;
+    padding-top: 350px;
+  }
+
+  .carousel-about img{
+    float: left;
+   height: 600px;
+   padding-right: 900px;
+   background-color: rgb(17,17,17);
+   padding-left: 100px;
+   padding-top: 200px;
+   padding-bottom: 80px;
+  }
+
+  .about-me{
+    color: rgb(249,91,84);
+    font-family: Helvetica;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    padding-top: 70px;
+    padding-left: 600px;
+  }
+  
+  .profile{
+    color: #707070;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    padding-top: 110px;
+    padding-left: 525px;
+  }
+
+  .umaima{
+    color: #ffffff;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    padding-top: 200px;
+    padding-left: 465px;
+  }
+  .aboutme{
+    color: #707070;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    padding-top: 250px;
+    padding-left: 465px;
+  }
+
+  .list{
+    color: #707070;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    padding-top: 350px;
+    padding-left: 450px;
+  }
+
+  .card-group{
+    padding-left: 100px;
+    padding-top: 200px;
+    padding-bottom: 80px;
+    padding-right: 100px;
+    background-color: rgb(21,21,21);
+    cursor: pointer;
+  }
+  
+  .card{
+    background-color: rgb(34,34,34);
+    color: #707070;
+  }
+.card h5{
+  color: #ffffff;
+}
+  .my-service{
+    color: rgb(249,91,84);
+    position: absolute;
+    padding-top: 70px;
+    padding-left: 600px;
+    font-family: Helvetica;
+  }
+
+  .card-body:hover{
+    box-shadow: 0px 3px 12px 0px #ccc;
+  border: 1px solid transparent;
+  }
+  .profile-services{
+    color: #707070;
+    position: absolute;
+    padding-top: 115px;
+    padding-left: 500px;
+    font-family: Helvetica;
+  }
+
+  .card-title{
+    text-align: center;
+  }
+
+  .card-text{
+    text-align: center;
+  }
+
+ .main-container {
+  padding-left: 100px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-right: 100px;
+    background-color: rgb(21,21,21);
+ }
+
+ .row{
+  color: white;
+ }
+
+.col header.title{
+  font-family: Helvetica;
+  color: rgb(249,91,84);
+  
+}
+
+.col .contents{
+  padding: 0px 30px;
+  border-left: 2px solid rgb(34,34,34);
+}
+
+.col .contents .box{
+  position: relative;
+  padding: 20px;
+  border: 1px solid rgb(17,17,17);
+  background-color: rgb(34,34,34);
+  cursor: pointer;
+  transition: all 0.4s;
+  margin-bottom: 20px;
+}
+
+.col .contents .box:hover{
+  box-shadow: 0px 3px 12px 0px #ccc;
+  border: 1px solid transparent;
+}
+
+.col .contents .box::before{
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  right: calc(100% + 22px);
+  top: 0;
+  background-color: rgb(249,91,84);
+  border: 2px solid rgb(55, 51, 51);
+}
+
+.box h4{
+  color: rgb(249,91,84);
+}
+
+.box h3{
+  font-size: 19px;
+  padding: 10px 0px 6px;
+  font-family: Helvetica;
+  color: #ffffff;
+}
+
+.box p{
+  line-height: 1.2;
+  color: #707070;
+  font-size: 17px;
+}
+
+.contact-container {
+  padding-left: 100px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-right: 100px;
+    background-color: rgb(21,21,21);
+ }
+
+ .get-in{
+  color: #d6d2d2;
+  padding-bottom: 80px;
+  text-align: center;
+  justify-content: center;
+ }
+.get-in p{
+  color: #707070;
+}
+ .get-in h2{
+  color: rgb(249,91,84);
+  font-family: Helvetica;
+ }
+
+.first-name .row{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.first-name .col {
+  display: flex;
+  justify-content: center;
+}
+
+.form-control {
+  margin: 0 10px; 
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 350px; 
+  background-color: #222222;
+  border-color: rgb(92, 92, 92);
+}
+
+.col2{
+  padding-left: 204px;
+    padding-top: 25px;
+}
+
+.form-control2 {
+  margin: 0 10px; 
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 722px; 
+  background-color: #222222;
+  color: #ddd;
+  border-color: rgb(92, 92, 92);
+}
+
+.col3{
+  padding-left: 204px;
+  padding-top: 25px;
+}
+
+.form-control3 {
+  margin: 0 10px; 
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 722px; 
+  background-color: #222222;
+  color: #ddd;
+  border-color: rgb(92, 92, 92);
+  height: 126px;
+}
+
+.button-container{
+  text-align: center;
+  padding-top: 35px;
+}
+
+.btn-contact {
+  background-color: rgb(17,17,17);
+  color: rgb(249, 91, 84);
+  border: 2px solid rgb(249, 91, 84);
+  padding: 12px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-contact:hover {
+  background-color: rgb(249, 91, 84);
+  color: white;
+  border-color: rgb(249, 91, 84);
+}
+
+.last-container{
+  background-color: #151515;
+  padding-bottom: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+  cursor: pointer;
+}
+
+.slast-container{
+  background-color: #151515;
+}
+
+.footer-logo{
+  color: #d6d2d2;
+  padding-bottom: 80px;
+  text-align: center;
+  justify-content: center;
+}
+.footer-logo span{
+  color: rgb(249, 91, 84);
+}
+.footer-logo p{
+  color: #707070;
+}
+
+.end-container{
+  background-color: #151515;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 80px;
+  cursor: pointer;
+}
+
+.social-icons {
+  text-align: center;
+  padding: 20px;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  color: #333;
+  text-decoration: none;
+  font-size: 30px;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color:rgb(249, 91, 84) ; 
+}
+
+.last-container{
+  background-color: #151515;
+  justify-content: center;
+  text-align: center;
+}
+.footerr{
+  color: #707070;
+}
+.footerr a{
+  color: #707070 ;
+}
+
+.footerr a:hover {
+  color:rgb(249, 91, 84) ;
+}
